@@ -1,0 +1,140 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/book.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+.h1 {
+text-align: left;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-items li button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-items li button:hover {
+    background: #555;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.continue-shopping {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.checkout {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
+
+.continue-shopping:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    margin: 10px 0 0;
+}

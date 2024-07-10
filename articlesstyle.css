@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/book.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: to make the header stand out against the background */
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: to make the nav stand out against the background */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.article {
+    width: 100%;
+    max-width: 600px; /* To limit the width of articles */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: left;
+    color: #000;
+}
+
+.article-full-content {
+    display: none;
+}
+
+.article h2 {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.article p {
+    padding: 10px;
+    margin: 0;
+}
+
+.read-more {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #3e8e41;
+}

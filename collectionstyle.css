@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/book.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+.header h1 {
+    margin: 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    color: #000;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    color: #000;
+    padding: 20px;
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+.book img {
+    width: 100px;
+    height: 150px;
+}
+.title {
+    font-weight: bold;
+}

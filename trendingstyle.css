@@ -1,0 +1,161 @@
+/* General Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('image/book.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:bisque;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.header {
+    color: rgb(235, 196, 158);
+   
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.header nav ul li a:hover {
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-top: 30px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(56, 45, 143, 0.1);
+    color: black;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section .book-cover {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Book List Styling */
+.book-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:black;
+}
+
+.book-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.book-item .book-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.book-item .book-author {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.book-item .book-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .book-item {
+        width: calc(50% - 20px);
+    }
+
+    .section .book-cover {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .book-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>BOOKSHOME</title>
+    <link rel="stylesheet" href="storestyles.css">
+</head>
+<body>
+    <header>
+        <h1>BOOKSHOME</h1>
+        <nav>
+            <ul>
+                <li><a href="books.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="filter-bar">
+            <select id="filterSelect" onchange="filterBooks()">
+                <option value="all">All</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Non-fiction</option>
+                <option value="mystery">Mystery</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="romance">romance</option>
+                <option value="horror">horror</option>
+                
+            </select>
+        </section>
+        <section class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for books..." onkeyup="searchBooks()">
+        </section>
+        <section class="book-list" id="bookList">
+            <!-- Books will be dynamically added here by JavaScript -->
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                   <img src="image/yt-logo.jpg" alt="YouTube">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="image/fb-logo.jpeg" alt="Facebook">
+                </a>
+            </li>
+        </ul>
+        <p>&copy; 2024 BOOKSHOME</p>
+    </footer>
+    <script src="storescript.js"></script>
+</body>
+</html>

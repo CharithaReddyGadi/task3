@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/book.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+.h1 {
+text-align: left;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+
+.about {
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .about h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+.about ul li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    height: 24px; 
+    vertical-align: bottom;
+}
